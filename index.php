@@ -1,9 +1,9 @@
 <?php
 
 class ContattoForm {
-    public $nome;
-    public $email;
-    public $corsi;
+    private $nome;
+    private$email;
+    private $corsi;
 
     public function __construct($nome, $email, $corsi) {
         $this->nome = $nome;
