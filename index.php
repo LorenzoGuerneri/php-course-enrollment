@@ -2,7 +2,7 @@
 
 class ContattoForm {
     private $nome;
-    private$email;
+    private $email;
     private $corsi;
 
     public function __construct($nome, $email, $corsi) {
